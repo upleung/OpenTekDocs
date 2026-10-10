@@ -121,12 +121,11 @@ theme:
 #---- 3. Plugins & Hooks ----
 
 plugins:
-  - search
-  - awesome-pages
   # - blog
   # - tags
-  # - offline
-  # - search
+  - offline
+  - search
+  - awesome-pages
   # - minify:
   #     minify_html: true
 
