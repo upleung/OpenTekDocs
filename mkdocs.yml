@@ -1,15 +1,15 @@
 #---- 1. Site config ----
 
-site_name: MaterialX
-site_url: https://jaywhj.github.io/mkdocs-materialx/
-site_author: Aaron Wang
+site_name: OpenTekDocs  # 改成你的文档站名称
+site_url: https://upleung.github.io/OpenTekDocs/  # 你的 GitHub Pages 专属链接
+site_author: McGTek
 site_description: >-
   Born for documents, yet beyond documents. 
   Accessible to everyone, extremely easy to use. 
   Modern, lightweight, customizable, responsive.
 
-repo_name: jaywhj/mkdocs-materialx
-repo_url: https://github.com/jaywhj/mkdocs-materialx
+repo_url: https://github.com/upleung/OpenTekDocs  # 你的代码仓库地址
+repo_name: upleung/OpenTekDocs  # 右上角跳转 Github 的名称
 edit_uri: edit/main/docs/
 
 copyright: Copyright &copy; 2016 - 2026 Aaron Wang
@@ -21,13 +21,13 @@ extra:
     deprecated: Deprecated
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/jaywhj
+      link: https://github.com/upleung
       name: GitHub
     - icon: material/email
-      link: mailto:junewhj@qq.com
+      link: mailto:McGTek@gmail.com
       name: Email
     - icon: fontawesome/brands/discord
-      link: https://discord.gg/cvTfge4AUy
+      link: https://discord.com
       name: Discord
 
 
