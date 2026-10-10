@@ -36,6 +36,7 @@ jobs:
       - name: Install dependencies
         run: |
           pip install mkdocs-materialx
+          pip install mkdocs-glightbox
           # 注意：如果在你的仓库里有 requirements.txt 文件，请取消下方这行的注释
           # pip install -r requirements.txt
           
