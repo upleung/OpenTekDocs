@@ -1,0 +1,3 @@
+mkdocs-materialx
+mkdocs-glightbox
+mkdocs-drawio
