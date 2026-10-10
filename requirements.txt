@@ -1,3 +1,4 @@
 mkdocs-materialx
 mkdocs-glightbox
 mkdocs-drawio
+mkdocs-awesome-pages-plugin
