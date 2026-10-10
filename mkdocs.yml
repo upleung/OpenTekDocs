@@ -94,7 +94,7 @@ theme:
   font: false
   favicon: octicons/milestone-24
   icon:
-    logo: new-logo
+    logo: material/book-open-page-variant
   admonition:
     git:
       icon: simple/git
