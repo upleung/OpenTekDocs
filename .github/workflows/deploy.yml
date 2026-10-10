@@ -2,7 +2,7 @@ name: Deploy OpenTekDoc
 on:
   push:
     branches:
-      - main  # 如果你的主分支叫 master，请把这里改成 master
+      - main
 permissions:
   contents: write
 jobs:
@@ -35,11 +35,12 @@ jobs:
             
       - name: Install dependencies
         run: |
-          pip install mkdocs-materialx
-          pip install mkdocs-glightbox
-          pip install mkdocs-drawio
-          # 注意：如果在你的仓库里有 requirements.txt 文件，请取消下方这行的注释
-          # pip install -r requirements.txt
+          # 检查是否存在 requirements.txt，如果存在则安装它，否则逐个安装核心包
+          if [ -f "requirements.txt" ]; then
+            pip install -r requirements.txt
+          else
+            pip install mkdocs-materialx mkdocs-glightbox mkdocs-drawio
+          fi
           
       - name: Deploy to GitHub Pages
         run: mkdocs gh-deploy --force
